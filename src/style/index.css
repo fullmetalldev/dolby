@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    width: 3px;
+    background: #13031f;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 64px 51px;
+    background: #13031f;
+}
+
+.header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.header h1 span {
+    color: #FEDB62;
+}
+
+.about__content {
+    display: flex;
+    column-gap: 50px;
+    flex-flow: row nowrap;
+}
+
+.about__content_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 140px 0;
+}
+
+.about__content_left h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.about__content_left h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.about__content_left span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.about__content_left button {
+    margin-top: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.75);
+    background: none;
+    border: none;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.about__content_left ul {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+    margin-top: 68px;
+}
+
+.about__content_left ul li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.about {
+    background: #13031f;
+}
+
+
+.about__content_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 51px 33px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 330px;
+}
+
+@media (max-width: 1200px) {
+    .about__content{
+        flex-flow: row wrap;
+    }
+}
